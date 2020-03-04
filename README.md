@@ -1,4 +1,4 @@
-# JupyterLab kernel configuration for DESC sofrware
+# JupyterLab kernel configuration for DESC software
 
 ## Introduction
 This repository contains a [kernel specification](https://jupyter-client.readthedocs.io/en/stable/kernels.html) for executing [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) notebooks which use the DESC science environment at CC-IN2P3.
