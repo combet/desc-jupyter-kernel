@@ -1,0 +1,12 @@
+{
+    "display_name": "desc",
+    "language": "python",
+    "env": {
+        "DESC_DISTRIB_RELEASE": "latest"
+    },
+    "argv": [
+        "{KERNEL_DIR}/desc-jupyter-kernel-launcher.sh",
+        "-f",
+        "{connection_file}"
+    ]
+}
