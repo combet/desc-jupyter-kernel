@@ -7,7 +7,7 @@ When you launch JupyterLab, you will see a screen similar to the one below:
 
 ![Jupyter Launcher](./launcher.png)
 
-Push the `desc` button to launch a server already configured to use DESC science pipelines
+Push the `desc` button to launch a server already configured to use DESC software (e.g., GCRCatalogs)
 
 ## Installation
 
