@@ -19,12 +19,7 @@ cd /tmp/desc-jupyter-kernel
 bash ./install.sh
 ```
 
-After a successful installation, you will find a directory located according to the operating system you deploy on, as follows:
-
-| Operating system   | Installation directory                            |
-| ------------------ |:--------------------------------------------------|
-| Linux              | `$HOME/.local/share/jupyter/kernels/desc` |
-| macOS              | `$HOME/Library/Jupyter/kernels/desc`      |
+After a successful installation, the following directory will be created `$HOME/.local/share/jupyter/kernels/desc`.
 
 This directory is populated with files needed by JupyterLab to launch your notebook.
 
