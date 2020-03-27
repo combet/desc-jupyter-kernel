@@ -23,10 +23,10 @@
 # (https://github.com/airnandez/lsst-jupyter-kernel)                          #                                                                             #
 # ----------------------------------------------------------------------------#
 
-distribDir='/pbs/throng/lsst/software/desc'
+distribDir='/pbs/throng/lsst/software/desc/common/miniconda'
 releaseDir=${distribDir}
 export DESC_DISTRIB_RELEASE=${releaseDir}
-source ${distribDir}/setup.sh
+source ${distribDir}/setup_current_python.sh
 exec python -m ipykernel_launcher "$@"
 
 # Original code from lsst-jupyter-kernel
