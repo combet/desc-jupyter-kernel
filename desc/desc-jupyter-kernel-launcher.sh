@@ -26,6 +26,7 @@
 distribDir='/pbs/throng/lsst/software/desc/common/miniconda'
 releaseDir=${distribDir}
 export DESC_DISTRIB_RELEASE=${releaseDir}
+export DESC_GCR_SITE='in2p3'
 source ${distribDir}/setup_current_python.sh
 exec python -m ipykernel_launcher "$@"
 
